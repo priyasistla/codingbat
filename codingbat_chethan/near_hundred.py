@@ -1,0 +1,14 @@
+def near_hundred(n):
+	if abs(100-n) <= 10 or abs(200-n) <= 10:
+		return True
+	else:
+		return False
+		
+
+print(near_hundred(90))
+print(near_hundred(89))
+print(near_hundred(112))
+print(near_hundred(192))
+print(near_hundred(292))
+print(near_hundred(202))
+print(near_hundred(108))
